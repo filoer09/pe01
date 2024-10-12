@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单标签</title>
+    <style>
+        html{
+            font-size: 10px;
+        }
+        .rounded-box {  
+            border: 1px solid #938c8c;  
+            border-radius: 10px; 
+            padding: 1px; 
+            width: 400px;
+            font-size: 1.3rem;
+            font-weight: 100;
+            margin-left: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <p style="font-size: 3rem;font-weight: 900; ">表单标签</p>
+    <p style="font-size: 2rem;font-weight: 550  ;">说明</p>
+    <ul style="font-size: 1.5rem;font-weight: 100;">
+        <li>&lt;form&gt;: 定义表单，用于收集用户输入。</li>
+        <li>&lt;input&gt;: 定义输入字段，使用 type 属性指定输入类型（如 text、radio、password、checkbox 等）。</li>
+        <li>&lt;button&gt;: 定义按钮。</li>
+        <li>&lt;textarea&gt;: 定义多行文本框。</li>
+        <li>&lt;select&gt;: 定义下拉列表（选择框）。</li>
+    </ul>
+    <div class="rounded-box">
+        <pre>
+            <code>  
+    &lt;form&gt; action="#"&gt;
+        &lt;span&gt;用户名：&lt;/span&gt;
+        &lt;input type="text" placeholder="请输入用户名"&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        &lt;span&gt;密码：&lt;/span&gt;
+        &lt;input type="password" placeholder="请输入密码"&gt; 
+        &lt;br&gt;
+        &lt;br&gt;
+        &lt;span&gt;性别：&lt;/span&gt;
+        &lt;input type="radio" name="gender"&gt; 男
+        &lt;input type="radio" name="gender"&gt; 女
+        &lt;input type="radio" name="gender"&gt; 其他
+        &lt;br&gt;&lt;br&gt;
+        &lt;span&gt;爱好：&lt;/span&gt;
+        &lt;input type="checkbox" name="hobby"&gt; 唱歌
+        &lt;input type="checkbox" name="hobby"&gt; 跳舞
+        &lt;input type="checkbox" name="hobby"&gt; 篮球
+        &lt;input type="checkbox" name="hobby"&gt; 其他
+        &lt;br&gt;
+        &lt;br&gt;
+        &lt;input type="submit" value="提交"&gt;
+    &lt;/form&gt;
+            </code>  
+        </pre>
+    </div>
+    
+</body>
+</html>
