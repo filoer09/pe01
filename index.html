@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常见HTML标签</title>
+    <style>
+        html{
+            font-size: 10px;
+        }
+        .container {
+            display: flex;
+            
+            justify-content: space-around;
+        }
+        .itoms{
+            display: flex;
+            width: 28rem;
+            flex-direction: column;
+        }
+        .itom{
+            width: 22rem;
+        }
+        .kind{
+            font-size: 2.5rem;
+            font-weight: 700;
+            color:  #e67e31;
+        }
+        .label{
+            font-size:2rem;
+            font-weight: 350;
+            border: 0;
+            background-color: rgb(255, 255, 255);
+            color: #000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-size: 3rem;">常见HTML标签</h1>
+    <p style="font-size: 1.5rem;">以下是一些常见的 HTML 标签：结构标签 标题标签 文本格式化标签 列表标签 链接和媒体标签 表格标签 表单标签 其他常见标签。</p>
+    <p style="font-size: 1.5rem;">这些标签使得 HTML 能够构建结构化的文档，使网页元素组织更为清晰。</p>
+    <span style="font-size: 1.5rem;">B站视频资料：</span><a href="https://www.bilibili.com/video/BV1BT4y1W7Aw?p=1&vd_source=46e68764b463ebefa760777fd9469f28">https://www.bilibili.com/video/BV1BT4y1W7Aw?p=1&vd</a>
+    <div class="container">
+        <div class="itoms">
+            <div class="itom">
+                <p class="kind">结构标签</p><br>
+                <a href="subfolder\html.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;html&gt;</a><br>
+                <a href="subfolder\head.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;head&gt;</a><br>
+                <a href="subfolder\title.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;title&gt;</a><br>
+                <a href="subfolder\body.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;body&gt;</a><br>
+            </div>
+            <div class="itom">
+                <p class="kind">链接和媒体标签</p><br>
+                <a href="subfolder\link.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;a&gt;</a><br>
+                <a href="subfolder\link.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;img&gt;</a><br>
+                <a href="#" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;audio&gt;</a><br>
+                <a href="#" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;video&gt;</a><br>
+            </div>
+            <div class="itom">
+                <p class="kind">其他常见标签</p><br>
+                <a href="subfolder\other.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;div&gt;</a><br>
+                <a href="subfolder\other.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;span&gt;</a><br>
+                <a href="subfolder\other.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;section&gt;</a><br>
+                <a href="subfolder\other.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;article&gt;</a><br>
+                <a href="subfolder\other.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;header&gt;</a><br>
+                <a href="subfolder\other.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;footer&gt;</a><br>
+            </div>
+        </div>
+        <div class="itoms">
+            <div class="itom">
+                <p class="kind">标题标签</p><br>
+                <a href="subfolder\h.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;h1&gt;(等)</a><br>
+            </div>
+            <div class="itom">
+                <p class="kind">列表标签</p><br>
+                <a href="subfolder\list.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;ul&gt;</a><br>
+                <a href="subfolder\list.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;ol&gt;</a><br>
+                <a href="subfolder\list.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;li&gt;</a><br>
+            </div>
+            <div class="itom">
+                <p class="kind">表格标签</p><br>
+                <a href="subfolder\table.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;table&gt;</a><br>
+                <a href="subfolder\table.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;tr&gt;</a><br>
+                <a href="subfolder\table.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;th&gt;</a><br>
+                <a href="subfolder\table.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;td&gt;</a><br>
+            </div>
+        </div>
+        <div class="itoms" >
+            <div class="itom">
+                <p class="kind">文本格式化标签</p><br>
+                <a href="subfolder\textFormatting.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;p&gt;</a><br>
+                <a href="subfolder\textFormatting.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;br&gt;</a><br>
+                <a href="subfolder\textFormatting.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;hr&gt;</a><br>
+                <a href="subfolder\textFormatting.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;strong&gt;</a><br>
+                <a href="subfolder\textFormatting.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;em&gt;</a><br>
+                <a href="subfolder\textFormatting.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;b&gt;</a><br>
+                <a href="subfolder\textFormatting.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;i&gt;</a><br>
+                <a href="subfolder\textFormatting.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;u&gt;</a><br>
+            </div>
+            <div class="itom">
+                <p class="kind">表单标签</p><br>
+                <a href="subfolder\form.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;form&gt;</a><br>
+                <a href="subfolder\form.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;input&gt;</a><br>
+                <a href="subfolder\form.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;textarea&gt;</a><br>
+                <a href="subfolder\form.html" class="label" onmouseover="changecolor(this)" onmouseout="returncolor(this)">&lt;button&gt;</a><br>
+            </div>
+        </div>
+    </div>
+    <script>
+        //光标移入变色
+        function changecolor(button){
+            button.style.color='rgb(149, 151, 151)';
+            button.style.textDecoration='underline';
+        }
+        //光标移出恢复颜色
+        function returncolor(button){button.style.color='black';
+            button.style.textDecoration='none';
+        }
+    </script>
+</body>
+</html>
